@@ -1,11 +1,19 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2014-07-17
+img: медиация.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: Мая 2022
+location: Онлайн
+category: Чат-бот
+description: "<br/> BIOROBOTY019 приветствуют и приглашают на арт-медиации по рекам и каналам! Вместе мы попробуем увидеть реку глазами ихтиолога, энтомолога, почвоведа, альголога и геоботаника. Разнообразие точек зрения сулит интеллигентную дискуссию о субъектности реки, неизбежном очеловечивании межвидовой коммуникации, а также о месте искусства в сложных взаимоотношениях человека и природы. <br/>
+В ходе работы над проектом о реках, огибающих Елагин остров, мы встретились с учеными, чья научная деятельность так или иначе связана с реками. Собранные нами материалы про птиц, рыб, насекомых и саму реку, показали, что даже большой объем фактов, терминов, цифр и статистики не приближает к пониманию опыта этих субъектов. Так фокусом проекта “Медиация по рекам и каналам” стали сами ученые с их уникальным видением жизни и мира вокруг. <br/>
+<br/>
+Медиация доступна в телеграм-боте <br/>
+<br/>
+Команда: Звукорежиссер - Антон Щеголев @Ply-tone <br/>
+Куратор проекта - Дарья Болдырева @the_mimosa_pudica <br/>
+<br/>
+Подготовлен в рамках лаборатории Go with the flow (проект @cityscrepy)"
 ---

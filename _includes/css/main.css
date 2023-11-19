@@ -1,3 +1,5 @@
+---
+---
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -22,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #fff;
 }
 
 h1,
@@ -64,15 +66,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: {{ site.color.primary }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: {{ site.color.secondary }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: "{{ site.color.secondary }}";
     background-color: #fff;
 }
 
@@ -87,13 +89,17 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 16% auto 0;
+}
+
+header .img-responsive {
+    max-width: 50%;
 }
 
 header .intro-text .name {
@@ -111,12 +117,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 1.75em;
     }
 
     header .intro-text .skills {
@@ -172,12 +178,16 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 2% 0 0;
 }
 
 section h2 {
     margin: 0;
     font-size: 3em;
+}
+
+section {
+    background-color: #000;
 }
 
 section.success {
@@ -244,6 +254,11 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+div .contacts {
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
 }
 
 @media(min-width:767px) {
