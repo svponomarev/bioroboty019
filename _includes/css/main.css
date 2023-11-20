@@ -95,11 +95,12 @@ header .container {
 
 header img {
     display: block;
-    margin: 16% auto 0;
+    margin: auto;
 }
 
 header .img-responsive {
     max-width: 50%;
+    padding-top: 130px;
 }
 
 header .intro-text .name {
@@ -178,7 +179,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 2% 0 0;
+    padding: 20px 0 0;
 }
 
 section h2 {
@@ -256,7 +257,7 @@ section.success {
     z-index: 2;
 }
 
-div .contacts {
+.contacts {
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
